@@ -1,16 +1,17 @@
-# flutter_application_1
+# CS4750 Mobile App Development
 
-A new Flutter project.
+## Reaction Time Test
 
-## Getting Started
+Features four different tests to measure reaction time.
 
-This project is a starting point for a Flutter application.
+### Normal Test
+Measures the time the user takes to react to a screen switching from red to green.
 
-A few resources to get you started if this is your first Flutter project:
+### Circle Test
+Measures the time the user takes to react to a circle appearing, and tapping the circle. Usually longer, but not much longer than the normal test.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Two Circles Test
+Same as the circle test but introduces a yellow circle which must not be tapped. The user has to react to which circle to tap. Not much longer than the circle test.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Aim Test
+User has to tap three circles. Usually at least double the time of the two circles test.
