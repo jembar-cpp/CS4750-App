@@ -1,6 +1,5 @@
-import 'package:flutter/material.dart';
-
 /// Theme Manager to manage the app's current theme
+import 'package:flutter/material.dart';
 
 enum Themes {
   light,
